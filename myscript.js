@@ -30,5 +30,10 @@ document.addEventListener('mouseover',(event)=>{
     if(event.target.matches('#miImg')){
         miImg.classList.add('visible');
     }
+    setTimeout(() => {
+        miParrafo.classList.remove('visible');
+        miH2.classList.remove('visible');
+        miImg.classList.remove('visible');
+    }, 30000);
 
 });
