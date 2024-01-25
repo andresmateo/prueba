@@ -20,9 +20,14 @@ header {
 main {
     height: 100vh;
     display: flex;
-    align-items: center;
+    align-items:stretch;
     justify-content: center;
     text-align: center;
+}
+
+section{
+    /* border: solid 1px white; */
+    margin-top: 25px;
 }
 
 img{
